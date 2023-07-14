@@ -27,13 +27,13 @@ boundaryField
 
     HotWall
     {
-        type        zeroGradient;
+        type        fixedValue;
         value       uniform 298;
     }
 
     ColdWall
     {
-        type        zeroGradient;
+        type        fixedValue;
         value       uniform 273;
     }
 }
